@@ -1,8 +1,9 @@
+import { Expertise } from "@/components/mainviewComponents/Expertise";
 import { Hero } from "../components/mainviewComponents/Hero";
 import { useRef } from "react";
 
 export const Home = () => {
-  const nextSectionRef = useRef<null | HTMLDivElement>(null);
+  const nextSectionRef = useRef<HTMLDivElement | null>(null);
   const handleScrollToNextSection = () => {
     if (nextSectionRef.current) {
       nextSectionRef.current.scrollIntoView({
@@ -13,6 +14,11 @@ export const Home = () => {
   return (
     <div>
       <Hero handleScrolltoNextSection={handleScrollToNextSection} />
+
+      <Expertise
+        handleScrolltoNextSection={handleScrollToNextSection}
+        nextSectionRef={nextSectionRef}
+      />
     </div>
   );
 };
