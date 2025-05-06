@@ -1,0 +1,18 @@
+import { Routes, Route } from "react-router-dom";
+import { Home } from "@/pages/Home";
+
+import { ErrorPage } from "@/pages/ErrorPage";
+import { ProjectsLayout } from "@/components/layout/ProjectsLayout";
+import { ProjectDetails } from "@/pages/ProjectDetails";
+
+export const PageRouter = () => (
+  <Routes>
+    <Route index element={<Home />} />
+    <Route path="project">
+      <Route element={<ProjectsLayout />}>
+        <Route path=":projectId" element={<ProjectDetails />} />
+      </Route>
+    </Route>
+    <Route path="*" element={<ErrorPage />} />
+  </Routes>
+);
