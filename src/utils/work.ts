@@ -5,6 +5,13 @@ import greenThumb4 from "../assets/greenThumb/greenThumb4.png";
 import greenThumb5 from "../assets/greenThumb/greenThumb5.png";
 import greenThumb6 from "../assets/greenThumb/greenThumb6.png";
 
+import ozarkAirbnb1 from "../assets/ozarkAirbnb/ozarkAirbnb1.png";
+import ozarkAirbnb2 from "../assets/ozarkAirbnb/ozarkAirbnb2.png";
+import ozarkAirbnb3 from "../assets/ozarkAirbnb/ozarkAirbnb3.png";
+import ozarkAirbnb4 from "../assets/ozarkAirbnb/ozarkAirbnb4.png";
+import ozarkAirbnb5 from "../assets/ozarkAirbnb/ozarkAirbnb5.png";
+import ozarkAirbnb6 from "../assets/ozarkAirbnb/ozarkAirbnb6.png";
+
 export type WorkItem = {
   id: string;
   title: string;
@@ -59,9 +66,9 @@ export const workItems: WorkItem[] = [
   },
   {
     id: "2",
-    title: "FlowSwift",
+    title: "Crown Clothing",
     description:
-      "A full stack application using the MERN stack as well as Graphql to offer companies a useful tool for managing clients, projects, and more!",
+      "E-commerce website built with React and Redux, featuring a shopping cart and user authentication",
     images: [],
     gifs: [],
     github: "https://github.com/jonteal/FlowSwift",
@@ -72,7 +79,14 @@ export const workItems: WorkItem[] = [
     title: "Ozark AirBnb",
     description:
       "A simple front end website for a small business within the Airbnb industry.",
-    images: [],
+    images: [
+      { src: ozarkAirbnb1, description: "Ozark AirBnb" },
+      { src: ozarkAirbnb2, description: "Ozark AirBnb" },
+      { src: ozarkAirbnb3, description: "Ozark AirBnb" },
+      { src: ozarkAirbnb4, description: "Ozark AirBnb" },
+      { src: ozarkAirbnb5, description: "Ozark AirBnb" },
+      { src: ozarkAirbnb6, description: "Ozark AirBnb" },
+    ],
     gifs: [],
     github: "https://github.com/jonteal/ozark-airbnb",
     liveLink: "",

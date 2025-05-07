@@ -10,7 +10,7 @@ export const WorkCard = ({ card }: WorkCardProps) => (
     <figure>
       <img
         className="hover:scale-125 transition-all duration-500 cursor-pointer"
-        src={card.images[0]}
+        src={card.images[0]?.src}
         alt={card.title}
       />
     </figure>

@@ -7,7 +7,7 @@ export const Work = () => {
       id="work"
       className="h-screen w-10/12 flex flex-col items-center justify-center mx-auto mt-60"
     >
-      <h2 className="text-white text-8xl font-bold self-start mb-10 flex flex-col">
+      <h2 className="text-white text-7xl font-bold self-start mb-10 mt-5 flex flex-col">
         <span className="self-start">My</span>{" "}
         <span className="self-start">Work</span>
       </h2>
