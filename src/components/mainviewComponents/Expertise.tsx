@@ -13,7 +13,7 @@ export const Expertise = ({ nextSectionRef }: ExpertiseProps) => (
     id="expertise"
   >
     <h2 className="text-white text-6xl font-bold mb-10">My Expertise</h2>
-    <div className="border flex sm:flex-row flex-col w-9/12">
+    <div className="border flex sm:flex-row flex-col w-10/12">
       <div className="border p-10">
         <div className="flex flex-row justify-center items-start w-full">
           <MdComputer className="text-5xl mr-5" />
@@ -21,7 +21,7 @@ export const Expertise = ({ nextSectionRef }: ExpertiseProps) => (
             Software Development
           </h3>
         </div>
-        <div className="w-24 h-2 bg-purple-400 mt-30"></div>
+        <div className="w-24 h-2 bg-purple-400"></div>
         <p className="mt-3">
           Experienced in full stack development, with a focus on frontend
           technologies, specializing in Javascript, Typescript.
@@ -34,7 +34,7 @@ export const Expertise = ({ nextSectionRef }: ExpertiseProps) => (
             Frontend Developer, React
           </h3>
         </div>
-        <div className="w-24 h-2 bg-green-400 mt-30"></div>
+        <div className="w-24 h-2 bg-green-400"></div>
         <p className="mt-3">
           Passionate about UI/UX. Over 3 years of development experience in
           HTML, CSS, JS, React, and NextJS frameworks.
@@ -47,7 +47,7 @@ export const Expertise = ({ nextSectionRef }: ExpertiseProps) => (
             Small Business Owner
           </h3>
         </div>
-        <div className="w-24 h-2 bg-blue-400 mt-30"></div>
+        <div className="w-24 h-2 bg-blue-400"></div>
         <p className="mt-3">
           Founded and operated a small business for 1 year. Experienced in
           business operations, marketing, and customer service.

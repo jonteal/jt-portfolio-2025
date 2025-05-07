@@ -24,63 +24,51 @@ export const Navbar = () => (
         </li>
         <li>
           <Link
-            to="home"
+            to="expertise"
             smooth={true}
             duration={1000}
             className="hover:cursor-pointer hover:text-teal-200 text-lg transform transition duration-500 hover:scale-125 hover:bg-teal-800 flex justify-center items-center"
           >
-            <RouterLink to="/">
-              <span className="text-xs font-mono mr-2">01</span>// expertise
-            </RouterLink>
+            <span className="text-xs font-mono mr-2">01</span>// expertise
           </Link>
         </li>
         <li>
           <Link
-            to="home"
+            to="work"
             smooth={true}
             duration={1000}
             className="hover:cursor-pointer hover:text-teal-200 text-lg transform transition duration-500 hover:scale-125 hover:bg-teal-800 flex justify-center items-center"
           >
-            <RouterLink to="/">
-              <span className="text-xs font-mono mr-2">02</span>// work
-            </RouterLink>
+            <span className="text-xs font-mono mr-2">02</span>// work
           </Link>
         </li>
         <li>
           <Link
-            to="home"
+            to="experience"
             smooth={true}
             duration={1000}
             className="hover:cursor-pointer hover:text-teal-200 text-lg transform transition duration-500 hover:scale-125 hover:bg-teal-800 flex justify-center items-center"
           >
-            <RouterLink to="/">
-              <span className="text-xs font-mono mr-2">03</span>// experience
-            </RouterLink>
+            <span className="text-xs font-mono mr-2">03</span>// experience
           </Link>
         </li>
         <li>
           <Link
-            to="home"
+            to="contact"
             smooth={true}
             duration={1000}
             className="hover:cursor-pointer hover:text-teal-200 text-lg transform transition duration-500 hover:scale-125 hover:bg-teal-800 flex justify-center items-center"
           >
-            <RouterLink to="/">
-              <span className="text-xs font-mono mr-2">04</span>// contact
-            </RouterLink>
+            <span className="text-xs font-mono mr-2">04</span>// contact
           </Link>
         </li>
         <li>
-          <Link
-            to="home"
-            smooth={true}
-            duration={1000}
+          <RouterLink
+            to="games"
             className="hover:cursor-pointer hover:text-teal-200 text-lg transform transition duration-500 hover:scale-125 hover:bg-teal-800 flex justify-center items-center"
           >
-            <RouterLink to="/">
-              <span className="text-xs font-mono mr-2">05</span>// play a game!
-            </RouterLink>
-          </Link>
+            <span className="text-xs font-mono mr-2">05</span>// play a game!
+          </RouterLink>
         </li>
       </ul>
     </nav>

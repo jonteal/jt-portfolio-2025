@@ -1,6 +1,9 @@
 import { Expertise } from "@/components/mainviewComponents/Expertise";
 import { Hero } from "../components/mainviewComponents/Hero";
 import { useRef } from "react";
+import { Work } from "@/components/mainviewComponents/Work";
+import { Experience } from "@/components/mainviewComponents/Experience";
+import { Contact } from "@/components/mainviewComponents/Contact";
 
 export const Home = () => {
   const nextSectionRef = useRef<HTMLDivElement | null>(null);
@@ -19,6 +22,12 @@ export const Home = () => {
         handleScrolltoNextSection={handleScrollToNextSection}
         nextSectionRef={nextSectionRef}
       />
+
+      <Work />
+
+      <Experience />
+
+      <Contact />
     </div>
   );
 };
