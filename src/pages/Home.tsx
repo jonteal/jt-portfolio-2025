@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { Work } from "@/components/mainviewComponents/Work";
 import { Experience } from "@/components/mainviewComponents/Experience";
 import { Contact } from "@/components/mainviewComponents/Contact";
+import { References } from "@/components/mainviewComponents/References";
 
 export const Home = () => {
   const nextSectionRef = useRef<HTMLDivElement | null>(null);
@@ -26,6 +27,8 @@ export const Home = () => {
       <Work />
 
       <Experience />
+
+      <References />
 
       <Contact />
     </div>

@@ -54,12 +54,22 @@ export const Navbar = () => (
         </li>
         <li>
           <Link
+            to="references"
+            smooth={true}
+            duration={1000}
+            className="hover:cursor-pointer hover:text-teal-200 text-lg transform transition duration-500 hover:scale-125 hover:bg-teal-800 flex justify-center items-center"
+          >
+            <span className="text-xs font-mono mr-2">04</span>// references
+          </Link>
+        </li>
+        <li>
+          <Link
             to="contact"
             smooth={true}
             duration={1000}
             className="hover:cursor-pointer hover:text-teal-200 text-lg transform transition duration-500 hover:scale-125 hover:bg-teal-800 flex justify-center items-center"
           >
-            <span className="text-xs font-mono mr-2">04</span>// contact
+            <span className="text-xs font-mono mr-2">05</span>// contact
           </Link>
         </li>
         <li>
@@ -67,7 +77,7 @@ export const Navbar = () => (
             to="games"
             className="hover:cursor-pointer hover:text-teal-200 text-lg transform transition duration-500 hover:scale-125 hover:bg-teal-800 flex justify-center items-center"
           >
-            <span className="text-xs font-mono mr-2">05</span>// play a game!
+            <span className="text-xs font-mono mr-2">06</span>// play a game!
           </RouterLink>
         </li>
       </ul>

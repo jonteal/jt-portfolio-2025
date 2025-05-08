@@ -14,7 +14,7 @@ export const Contact = () => (
           contact me via instant message!
         </p>
       </div>
-      <ReferencesGrid />
+      {/* <ReferencesGrid /> */}
     </div>
   </section>
 );
