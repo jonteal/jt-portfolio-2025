@@ -13,7 +13,7 @@ const links = [
 export const Navbar = () => (
   <div className="navbar bg-base-100 fixed z-10">
     <div className="navbar-start">
-      <Link className="btn btn-ghost text-xl" to="/">
+      <Link className="btn btn-ghost text-xl" to="/#home">
         Jon Jackson
       </Link>
     </div>
