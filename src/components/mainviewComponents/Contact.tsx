@@ -1,5 +1,3 @@
-import { ReferencesGrid } from "../ReferencesGrid";
-
 export const Contact = () => (
   <section
     id="contact"
@@ -10,11 +8,10 @@ export const Contact = () => (
       <div className="flex flex-col items-center justify-center w-full p-4">
         <h3>Available for select freelance opportunities</h3>
         <p>
-          Have an exciting project you need help with? Send me an email or
-          contact me via instant message!
+          Have an exciting project you need help with? Send me an email at
+          jonjackson.webdesign@gmail.com!
         </p>
       </div>
-      {/* <ReferencesGrid /> */}
     </div>
   </section>
 );

@@ -14,7 +14,7 @@ export const ReferencesGrid = () => (
               <p className="mt-3 mb-1 text-xs font-medium text-indigo-500 uppercase">
                 ------------
               </p>
-              <p className="mb-2 text-gray-600 text-sm">
+              <p className="mb-2 text-gray-600 text-sm italic">
                 "I have had the pleasure of working with Jon for over 2 years
                 now. In that time I have seen Jon rise to every occasion
                 presented. He is always striving to deliver the best possible
@@ -37,7 +37,7 @@ export const ReferencesGrid = () => (
               <p className="mt-3 mb-1 text-xs font-medium text-purple-500 uppercase">
                 ------------
               </p>
-              <p className="mb-2 text-gray-600 text-sm">
+              <p className="mb-2 text-gray-600 text-sm italic">
                 "Jon always strives to go above and beyond in ensuring software
                 quality! The feature work Jon delivers is always well tested,
                 easy to read, and thoughtful. His positive attitude and great
@@ -60,14 +60,14 @@ export const ReferencesGrid = () => (
               <p className="mt-3 mb-1 text-xs font-medium text-blue-400 uppercase">
                 ------------
               </p>
-              <p className="mb-2 text-gray-600 text-sm">
-                Jon is not only an exceptional full stack developer, but an
+              <p className="mb-2 text-gray-600 text-sm italic">
+                "Jon is not only an exceptional full stack developer, but an
                 outstanding human being. Jon is a pleasure to work with and is a
                 motivated, hard-working, forward-thinking professional. Jon has
                 excelled as a full stack developer and often takes time to
                 mentor his peers, offering both his exceptional skill set and
                 patience when teaching others. As a team member or a leader, Jon
-                earns my highest recommendation.
+                earns my highest recommendation."
               </p>
             </div>
           </div>
@@ -84,12 +84,12 @@ export const ReferencesGrid = () => (
               <p className="mt-3 mb-1 text-xs font-mediumm text-yellow-400 uppercase">
                 ------------
               </p>
-              <p className="mb-2 text-gray-600 text-sm">
-                I had the pleasure of working with Jon on different projects. He
-                is professional and always willing to go the extra mile. He
+              <p className="mb-2 text-gray-600 text-sm italic">
+                "I had the pleasure of working with Jon on different projects.
+                He is professional and always willing to go the extra mile. He
                 constantly pushes himself to be better and goes out of his way
                 to learn and practice when he feels he needs more experience.
-                Jon is a very thoughtful and insightful individual.
+                Jon is a very thoughtful and insightful individual."
               </p>
             </div>
           </div>

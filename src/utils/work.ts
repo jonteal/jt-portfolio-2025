@@ -12,6 +12,11 @@ import ozarkAirbnb4 from "../assets/ozarkAirbnb/ozarkAirbnb4.png";
 import ozarkAirbnb5 from "../assets/ozarkAirbnb/ozarkAirbnb5.png";
 import ozarkAirbnb6 from "../assets/ozarkAirbnb/ozarkAirbnb6.png";
 
+import crownClothing1 from "../assets/crownClothing/crownClothing1.png";
+import crownClothing2 from "../assets/crownClothing/crownClothing2.png";
+import crownClothing3 from "../assets/crownClothing/crownClothing3.png";
+import crownClothingVideo from "../assets/crownClothing/crownClothingVid.mp4";
+
 export type WorkItem = {
   id: string;
   title: string;
@@ -69,9 +74,24 @@ export const workItems: WorkItem[] = [
     title: "Crown Clothing",
     description:
       "E-commerce website built with React and Redux, featuring a shopping cart and user authentication",
-    images: [],
+    images: [
+      {
+        src: crownClothing1,
+        description:
+          "See a host of product categories to select items from and add them to your cart for purchase!",
+      },
+      {
+        src: crownClothing2,
+        description:
+          "Explore the items in a given category with pricing and pictures!",
+      },
+      {
+        src: crownClothing3,
+        description: "Add and update your cart and see updated pricing!",
+      },
+    ],
     gifs: [],
-    github: "https://github.com/jonteal/FlowSwift",
+    github: "https://github.com/jonteal/capstone-e-commerce",
     liveLink: "",
   },
   {
