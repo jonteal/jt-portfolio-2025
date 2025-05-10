@@ -15,7 +15,8 @@ import ozarkAirbnb6 from "../assets/ozarkAirbnb/ozarkAirbnb6.png";
 import crownClothing1 from "../assets/crownClothing/crownClothing1.png";
 import crownClothing2 from "../assets/crownClothing/crownClothing2.png";
 import crownClothing3 from "../assets/crownClothing/crownClothing3.png";
-import crownClothingVideo from "../assets/crownClothing/crownClothingVid.mp4";
+
+import comingSoon from "../assets/comingsoon.jpg";
 
 export type WorkItem = {
   id: string;
@@ -95,16 +96,6 @@ export const workItems: WorkItem[] = [
     liveLink: "",
   },
   {
-    id: "4",
-    title: "Pitmaster",
-    description:
-      "A recipe journal for BBQ enthusiasts, allowing users to save and share their favorite recipes as well as iterate on ideas to reach the perfect results.",
-    images: [],
-    gifs: [],
-    github: "https://github.com/jonteal/pitmaster",
-    liveLink: "",
-  },
-  {
     id: "3",
     title: "Ozark AirBnb",
     description:
@@ -119,6 +110,16 @@ export const workItems: WorkItem[] = [
     ],
     gifs: [],
     github: "https://github.com/jonteal/ozark-airbnb",
+    liveLink: "",
+  },
+  {
+    id: "4",
+    title: "Pitmaster",
+    description:
+      "A recipe journal for BBQ enthusiasts, allowing users to save and share their favorite recipes as well as iterate on ideas to reach the perfect results.",
+    images: [{ src: comingSoon, description: "Coming Soon!" }],
+    gifs: [],
+    github: "https://github.com/jonteal/pitmaster",
     liveLink: "",
   },
 ];
