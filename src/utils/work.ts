@@ -95,6 +95,16 @@ export const workItems: WorkItem[] = [
     liveLink: "",
   },
   {
+    id: "4",
+    title: "Pitmaster",
+    description:
+      "A recipe journal for BBQ enthusiasts, allowing users to save and share their favorite recipes as well as iterate on ideas to reach the perfect results.",
+    images: [],
+    gifs: [],
+    github: "https://github.com/jonteal/pitmaster",
+    liveLink: "",
+  },
+  {
     id: "3",
     title: "Ozark AirBnb",
     description:
