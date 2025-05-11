@@ -1,5 +1,7 @@
 import { workItems } from "@/utils/work";
 import { WorkCard } from "../WorkCard";
+import { Home } from "lucide-react";
+import { HomeProjectsCarousel } from "../HomeProjectCarousel";
 
 export const Work = () => {
   return (
@@ -11,11 +13,12 @@ export const Work = () => {
         <span className="self-start">My</span>{" "}
         <span className="self-start">Work</span>
       </h2>
-      <div className="flex flex-col sm:grid sm:grid-cols-3 gap-4 justify-between mx-auto w-full items-start">
+      {/* <div className="flex flex-col sm:grid sm:grid-cols-3 gap-4 justify-between mx-auto w-full items-start">
         {workItems.map((item) => (
           <WorkCard key={item.id} card={item} />
         ))}
-      </div>
+      </div> */}
+      <HomeProjectsCarousel />
     </section>
   );
 };
