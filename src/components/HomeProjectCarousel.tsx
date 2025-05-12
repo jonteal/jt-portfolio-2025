@@ -20,12 +20,12 @@ export const HomeProjectsCarousel = () => {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full max-w-xs h-max-[600px] mx-auto"
-      orientation="vertical"
+      className="w-full mx-auto border-amber-200"
+      // orientation="vertical"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
-      <CarouselContent className="-mt-1 h-[600px] w-full">
+      <CarouselContent className="-mt-1 h-[600px] w-full border-amber-200">
         {/* {Array.from({ length: 5 }).map((_, index) => (
           <CarouselItem key={index}>
             <div className="p-1">
@@ -38,7 +38,7 @@ export const HomeProjectsCarousel = () => {
           </CarouselItem>
         ))} */}
         {workItems.map((item) => (
-          <CarouselItem key={item.id}>
+          <CarouselItem className="w-full border-amber-300" key={item.id}>
             <WorkCard key={item.id} card={item} />
           </CarouselItem>
         ))}

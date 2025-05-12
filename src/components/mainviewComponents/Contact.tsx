@@ -1,10 +1,13 @@
+import me from "../../assets/me.jpg";
+
 export const Contact = () => (
   <section
     id="contact"
     className="h-screen flex flex-col items-center justify-center w-screen"
   >
     <h2 className="text-white text-6xl font-bold mb-3">Get in touch</h2>
-    <div className="border flex flex-col w-9/12 rounded-3xl">
+    <div className="border flex flex-row w-9/12 rounded-3xl">
+      <img className="w-60 h-auto rounded-4xl p-4" src={me} alt="" />
       <div className="flex flex-col items-center justify-center w-full p-4">
         <h3>Available for select freelance opportunities</h3>
         <p>
