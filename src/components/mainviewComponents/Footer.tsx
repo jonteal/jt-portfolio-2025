@@ -15,10 +15,10 @@ export const Footer = () => (
       <p>
         Jon Jackson
         <br />
-        Software Engineer - 4 years of experience
+        Software Engineer - 4 years of experience - 2025
       </p>
     </aside>
-    <nav>
+    {/* <nav>
       <h6 className="footer-title">Social</h6>
       <div className="grid grid-flow-col gap-4">
         <a>
@@ -55,6 +55,6 @@ export const Footer = () => (
           </svg>
         </a>
       </div>
-    </nav>
+    </nav> */}
   </footer>
 );
