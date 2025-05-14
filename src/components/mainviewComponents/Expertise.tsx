@@ -16,7 +16,7 @@ export const Expertise = ({ nextSectionRef }: ExpertiseProps) => (
     <div className="border flex sm:flex-row flex-col w-10/12">
       <div className="border p-10">
         <div className="flex flex-row justify-center items-start w-full">
-          <MdComputer className="text-5xl mr-5" />
+          <MdComputer aria-hidden className="text-5xl mr-5" />
           <h3 className="text-white text-3xl font-bold mb-5">
             Software Development
           </h3>
@@ -29,27 +29,28 @@ export const Expertise = ({ nextSectionRef }: ExpertiseProps) => (
       </div>
       <div className="border p-10">
         <div className="flex flex-row justify-center items-start w-full">
-          <FaReact className="text-5xl mr-5" />
+          <FaReact aria-hidden className="text-5xl mr-5" />
           <h3 className="text-white text-3xl font-bold mb-5">
             Frontend Developer, React
           </h3>
         </div>
         <div className="w-24 h-2 bg-green-400"></div>
         <p className="mt-3">
-          Passionate about UI/UX. Over 3 years of development experience in
-          HTML, CSS, JS, React, and NextJS frameworks.
+          Passionate about creating engaging and accessible UI/UX. Over 3 years
+          of development experience in HTML, CSS, JS, React, and NextJS
+          frameworks.
         </p>
       </div>
       <div className="border p-10">
         <div className="flex flex-row justify-center items-start w-full">
-          <MdBusinessCenter className="text-5xl mr-5" />
+          <MdBusinessCenter aria-hidden className="text-5xl mr-5" />
           <h3 className="text-white text-3xl font-bold mb-5">
             Small Business Owner
           </h3>
         </div>
         <div className="w-24 h-2 bg-blue-400"></div>
         <p className="mt-3">
-          Founded and operated a small business for 1 year. Experienced in
+          Founder and operator of a small business for 1 year. Experienced in
           business operations, marketing, and customer service.
         </p>
       </div>
