@@ -10,7 +10,7 @@ type HeroProps = {
 export const Hero = ({ handleScrolltoNextSection }: HeroProps) => (
   <section
     id="home"
-    className="h-screen flex flex-col justify-start items-center"
+    className="min-h-screen flex flex-col justify-start items-center"
   >
     <img
       className="h-full text-white text-center grid bg-cover w-full"

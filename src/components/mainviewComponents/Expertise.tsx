@@ -8,7 +8,7 @@ type ExpertiseProps = {
 
 export const Expertise = ({ nextSectionRef }: ExpertiseProps) => (
   <section
-    className="h-screen flex flex-col items-center justify-center w-screen"
+    className="min-h-screen flex flex-col items-center justify-center w-full max-w-screen-xl"
     ref={nextSectionRef}
     id="expertise"
   >

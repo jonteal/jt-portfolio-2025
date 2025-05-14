@@ -3,7 +3,7 @@ import me from "../../assets/me.jpg";
 export const Contact = () => (
   <section
     id="contact"
-    className="h-screen flex flex-col items-center justify-center w-screen"
+    className="min-h-screen flex flex-col items-center justify-center w-full"
   >
     <h2 className="text-white text-6xl font-bold mb-3">Get in touch</h2>
     <div className="border flex flex-row w-10/12 rounded-3xl">
