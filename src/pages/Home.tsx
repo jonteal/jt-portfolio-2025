@@ -40,6 +40,7 @@ export const Home = () => {
           nextSectionRef={nextSectionRef}
         />
       </div>
+
       <div id="work">
         <Work />
       </div>
