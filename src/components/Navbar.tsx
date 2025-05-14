@@ -15,10 +15,9 @@ const links = [
 
 export const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-  console.log("isDrawerOpen", isDrawerOpen);
   return (
-    <div className="navbar bg-base-100 fixed z-10">
-      <div className="navbar-start">
+    <div className="navbar bg-base-100 fixed z-20 h-16 w-full flex flex-row justify-between">
+      <div className="sm:navbar-start w-auto">
         <Link className="btn btn-ghost text-xl" to="/#home">
           Jon Jackson
         </Link>
@@ -38,10 +37,9 @@ export const Navbar = () => {
           ))}
         </ul>
       </nav>
-      <div className="navbar-end lg:hidden">
+      <div className="sm:navbar-end w-auto lg:hidden">
         <MobileNav onOpen={() => setIsDrawerOpen(true)} />
       </div>
-
       <MobileNavDrawer
         isOpen={isDrawerOpen}
         onClose={() => setIsDrawerOpen(false)}

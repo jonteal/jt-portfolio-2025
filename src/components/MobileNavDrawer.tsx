@@ -3,9 +3,19 @@ type DrawerProps = {
   onClose: () => void;
 };
 
+const links = [
+  { name: "Home", path: "/#home" },
+  { name: "Expertise", path: "/#expertise" },
+  { name: "Work", path: "/#work" },
+  { name: "Experience", path: "/#experience" },
+  { name: "References", path: "/#references" },
+  { name: "Contact", path: "/#contact" },
+  { name: "Games", path: "/games" },
+];
+
 export const MobileNavDrawer = ({ isOpen, onClose }: DrawerProps) => (
   <div
-    className={`fixed top-0 right-0 h-full w-64 bg-base-200 shadow-lg z-50 transform transition-transform duration-300 ${
+    className={`fixed top-0 right-0 h-full w-96 bg-base-200 shadow-lg z-50 transform transition-transform duration-300 ${
       isOpen ? "translate-x-0" : "translate-x-full"
     }`}
   >
@@ -15,24 +25,13 @@ export const MobileNavDrawer = ({ isOpen, onClose }: DrawerProps) => (
       </button>
     </div>
     <ul className="menu p-4">
-      <li>
-        <a href="#home">Home</a>
-      </li>
-      <li>
-        <a href="#expertise">Expertise</a>
-      </li>
-      <li>
-        <a href="#work">Work</a>
-      </li>
-      <li>
-        <a href="#experience">Experience</a>
-      </li>
-      <li>
-        <a href="#references">References</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
+      {links.map((link) => (
+        <li key={link.name} className="mb-4">
+          <a onClick={onClose} href={link.path} className="text-2xl font-bold">
+            {link.name}
+          </a>
+        </li>
+      ))}
     </ul>
   </div>
 );

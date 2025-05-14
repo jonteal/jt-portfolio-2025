@@ -1,5 +1,5 @@
 export const MobileNav = ({ onOpen }: { onOpen?: () => void }) => (
-  <div className="navbar navbar-end bg-base-100 shadow-sm">
+  <div className="flex items-center justify-end w-full bg-base-100 shadow-sm">
     <div className="flex-none">
       <button onClick={onOpen} className="btn btn-square btn-ghost">
         <svg

@@ -1,5 +1,6 @@
 import type { WorkItem } from "@/utils/work";
 import { Link } from "react-router";
+import { Card, CardDescription, CardFooter, CardHeader } from "./ui/card";
 
 type WorkCardProps = {
   card: WorkItem;
@@ -14,14 +15,14 @@ export const WorkCard = ({ card }: WorkCardProps) => (
         alt={card.title}
       />
     </figure>
-    <div className="card-body">
-      <h2 className="card-title">{card.title}</h2>
-      <p>{card.description}</p>
-      <div className="card-actions justify-end">
+    <Card className="card-body">
+      <CardHeader className="card-title">{card.title}</CardHeader>
+      <CardDescription>{card.description}</CardDescription>
+      <CardFooter className="card-actions justify-end">
         <Link to={`/project/${card.id}`} className="btn btn-primary">
           See Details
         </Link>
-      </div>
-    </div>
+      </CardFooter>
+    </Card>
   </div>
 );

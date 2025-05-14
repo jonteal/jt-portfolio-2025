@@ -20,12 +20,12 @@ export const HomeProjectsCarousel = () => {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full mx-auto border-amber-200"
+      className="w-full mx-auto"
       // orientation="vertical"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
-      <CarouselContent className="-mt-1 h-[600px] w-full border-amber-200">
+      <CarouselContent className="-mt-1 h-[600px] w-full">
         {/* {Array.from({ length: 5 }).map((_, index) => (
           <CarouselItem key={index}>
             <div className="p-1">

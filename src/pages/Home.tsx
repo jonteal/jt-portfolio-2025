@@ -6,6 +6,7 @@ import { Experience } from "@/components/mainviewComponents/Experience";
 import { Contact } from "@/components/mainviewComponents/Contact";
 import { References } from "@/components/mainviewComponents/References";
 import { useLocation } from "react-router";
+import { Footer } from "@/components/mainviewComponents/Footer";
 
 export const Home = () => {
   const location = useLocation();
@@ -56,6 +57,8 @@ export const Home = () => {
       <div id="contact">
         <Contact />
       </div>
+
+      <Footer />
     </div>
   );
 };
