@@ -20,7 +20,7 @@ export const MobileNavDrawer = ({ isOpen, onClose }: DrawerProps) => (
     }`}
   >
     <div className="p-4 flex justify-end">
-      <button onClick={onClose} className="btn btn-sm btn-circle">
+      <button onClick={onClose} className="btn btn-md btn-circle">
         ✕
       </button>
     </div>
