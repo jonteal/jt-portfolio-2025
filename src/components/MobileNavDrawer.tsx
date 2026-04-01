@@ -10,7 +10,8 @@ const links = [
   { name: "Experience", path: "/#experience" },
   { name: "References", path: "/#references" },
   { name: "Contact", path: "/#contact" },
-  { name: "Games", path: "/games" },
+  { name: "Resume", path: "/#resume" },
+  // { name: "Games", path: "/games" },
 ];
 
 export const MobileNavDrawer = ({ isOpen, onClose }: DrawerProps) => (
