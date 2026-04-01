@@ -10,7 +10,8 @@ const links = [
   { name: "experience", path: "/#experience", number: "03" },
   { name: "references", path: "/#references", number: "04" },
   { name: "contact", path: "/#contact", number: "05" },
-  { name: "games", path: "/games", number: "06" },
+  { name: "resume", path: "/#resume", number: "06" },
+  // { name: "games", path: "/games", number: "07" },
 ];
 
 export const Navbar = () => {
