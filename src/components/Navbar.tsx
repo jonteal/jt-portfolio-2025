@@ -11,6 +11,7 @@ const links = [
   { name: "references", path: "/#references", number: "04" },
   { name: "contact", path: "/#contact", number: "05" },
   { name: "resume", path: "/#resume", number: "06" },
+  { name: "youtube", path: "/youtube", number: "07" },
   // { name: "games", path: "/games", number: "07" },
 ];
 

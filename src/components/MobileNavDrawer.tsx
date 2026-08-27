@@ -4,13 +4,14 @@ type DrawerProps = {
 };
 
 const links = [
-  { name: "Home", path: "/#home" },
-  { name: "Expertise", path: "/#expertise" },
-  { name: "Work", path: "/#work" },
-  { name: "Experience", path: "/#experience" },
-  { name: "References", path: "/#references" },
-  { name: "Contact", path: "/#contact" },
-  { name: "Resume", path: "/#resume" },
+  { name: "home", path: "/#home" },
+  { name: "expertise", path: "/#expertise" },
+  { name: "work", path: "/#work" },
+  { name: "experience", path: "/#experience" },
+  { name: "references", path: "/#references" },
+  { name: "contact", path: "/#contact" },
+  { name: "resume", path: "/#resume" },
+  { name: "youtube", path: "/youtube" },
   // { name: "Games", path: "/games" },
 ];
 

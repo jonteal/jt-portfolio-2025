@@ -6,6 +6,7 @@ import { ProjectsLayout } from "@/components/layout/ProjectsLayout";
 import { ProjectDetails } from "@/pages/ProjectDetails";
 import { Games } from "@/pages/Games";
 import { WordScramble } from "@/components/games/workScramble/WordScramble";
+import { Youtube } from "@/pages/Youtube";
 
 export const PageRouter = () => (
   <Routes>
@@ -17,6 +18,7 @@ export const PageRouter = () => (
     </Route>
     <Route path="games" element={<Games />} />
     <Route path="games/word-scramble" element={<WordScramble />} />
+    <Route path="youtube" element={<Youtube />} />
     <Route path="*" element={<ErrorPage />} />
   </Routes>
 );
